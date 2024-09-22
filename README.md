@@ -8,27 +8,8 @@
 Require this package in your `composer.json` or install it by running:
 
 ```
-composer require bob/laravel-pdf:dev-main
+composer require bob/laravel-pdf
 ```
-
-> Note: This package supports auto-discovery features of Laravel 8.0 0r newer version, You only need to manually add the service provider and alias 
-
-To start using Laravel, add the Service Provider and the Facade to your `config/app.php`:
-
-```php
-'providers' => [
-	// ...
-	bob\LaravelPdf\PdfServiceProvider::class,
-]
-```
-
-```php
-'aliases' => [
-	// ...
-	'PDF' => bob\LaravelPdf\Facades\Pdf::class,
-]
-```
-
 Now, you should publish package's config file to your config directory by using following command:
 
 ```
