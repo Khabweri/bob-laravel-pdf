@@ -1,4 +1,4 @@
-# Laravel PDF: mPDF wrapper for Laravel 5
+# Laravel PDF: mPDF wrapper for Laravel framework
 
 > Easily generate PDF documents from HTML right inside of Laravel using this mPDF wrapper.
 
