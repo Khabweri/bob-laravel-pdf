@@ -8,7 +8,7 @@
 Require this package in your `composer.json` or install it by running:
 
 ```
-composer require bob/laravel-pdf
+composer require bob/laravel-pdf:dev-main
 ```
 
 > Note: This package supports auto-discovery features of Laravel 8.0 0r newer version, You only need to manually add the service provider and alias 
